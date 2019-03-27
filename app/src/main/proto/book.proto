@@ -1,0 +1,10 @@
+package test_proto;
+
+option java_package = "com.harvey.suhongwei.myandroid";
+option java_outer_classname = "PersonHelper";
+
+message Person {
+  required string name = 1;
+  required int32 id = 2;
+}
+
